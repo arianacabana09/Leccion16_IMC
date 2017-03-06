@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/ico" href="img/Smile.ico">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>IMC</title>
+</head>
+<body>
+  <center>
+  <form onsubmit="return false">
+    <h3>Indice de Masa Corporal</h3>
+    <table>
+      <tr>
+        <td><label for="peso">Peso(Kg.):</label></td>
+        <td><input type="Number" name="peso" min="0" id="peso" required="required"></td>
+      </tr>
+      <tr>
+        <td><label for="talla">Altura(cm.):</label></td>
+        <td><input type="Number" name="altura" min="0" id="talla" required="required"></td>
+      </tr>
+      <tr>
+        <td><button type="submit" name="calcular">Calcular</button><br/></td>
+      </tr>
+    </table>
+  </form>
+  <center>
+  <script src="js\main.js"></script>
+</body>
+</html>
